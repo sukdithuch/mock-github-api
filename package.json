@@ -7,10 +7,10 @@
   },
   "private": true,
   "dependencies": {
-    "body-parser": "latest",
-    "express": "latest",
-    "gulp": "latest",
-    "lodash": "latest",
-    "morgan": "latest"
+    "body-parser": "*",
+    "express": "*",
+    "gulp": "*",
+    "lodash": "*",
+    "morgan": "*"
   }
 }
