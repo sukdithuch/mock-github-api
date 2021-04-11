@@ -3,7 +3,7 @@ var morgan = require('morgan');
 var mockGithubApisRouter = require('./routers/mock-github-apis-router');
 
 var app = express();
-var port = 3005;
+var port = 80;
 
 app.use(morgan('dev'));
 
