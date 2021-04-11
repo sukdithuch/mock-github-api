@@ -1,29 +1,11 @@
 {
   "name": "node-js-rest-api",
   "version": "1.0.0",
-  "description": "A Nodejs demo for IBM Connect 2016",
-  "main": "gulpfile.js",
   "scripts": {
     "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alex-arriaga/node-js-rest-api.git"
-  },
-  "keywords": [
-    "nodejs",
-    "restful",
-    "api",
-    "expressjs"
-  ],
-  "author": "Alex Arriaga",
-  "license": "UNLICENSED",
   "private": true,
-  "bugs": {
-    "url": "https://github.com/alex-arriaga/node-js-rest-api/issues"
-  },
-  "homepage": "https://github.com/alex-arriaga/node-js-rest-api#readme",
   "devDependencies": {
     "body-parser": "latest",
     "express": "latest",

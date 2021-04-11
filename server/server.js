@@ -5,6 +5,8 @@ var mockGithubApisRouter = require('./routers/mock-github-apis-router');
 var app = express();
 var port = process.env.PORT || 3005;
 
+console.log("process", process.env);
+
 app.use(morgan('dev'));
 
 // Enable CORS on ExpressJS to avoid cross-origin errors when calling this server using AJAX
